@@ -101,11 +101,11 @@ def github_banner():
 
 
 def github_social():
-    """Repository social preview, 1280x640 (GitHub: Settings > Social preview)."""
+    """Repository social preview, 1280x640 (GitHub: Settings > Social preview). Green highlight, matching the org banner."""
     W, H, P = 1280, 640, 80
     body = f'''{field(W, H, 11)}
 <div style="position:absolute;left:{P}px;top:{P}px">{lockup(56)}</div>
-<div style="position:absolute;left:{P}px;top:250px">{headline(136)}
+<div style="position:absolute;left:{P}px;top:250px">{headline(136, GREEN)}
  <div class="line" style="margin-top:34px;font-size:19px">{LINE}</div></div>
 <div style="position:absolute;left:{P}px;right:{P}px;bottom:{P - 10}px;display:flex;justify-content:space-between;align-items:center">
  <span class="m" style="font-size:20px;color:{PAPER};letter-spacing:.06em">{URL}</span><span class="tag" style="font-size:17px;padding:10px 12px">{TAG}</span></div>'''
