@@ -1,0 +1,73 @@
+/* FolioFlux brand tokens. Generated from tokens.json by scripts/build_kit.py; edit tokens.json, not this file. */
+
+:root {
+  --ff-black: #000000;
+  --ff-card: #141414;
+  --ff-green: #2BBC62;
+  --ff-magenta: #FF00DD;
+  --ff-paper: #F4F3EE;
+  --ff-white: #FFFFFF;
+  --ff-raised: #1A1A1A;
+  --ff-hairline: #2A2A2A;
+  --ff-boundary: #666666;
+  --ff-muted: #B3B3B3;
+  --ff-ink: #111111;
+  --ff-paper-shade: #C9C9C4;
+  --ff-paper-muted: #4A4A45;
+  --ff-green-ink: #0F7A3A;
+  --ff-magenta-ink: #FF52D1;
+  --ff-magenta-ink-light: #B0009B;
+
+  --ff-font-display: Archivo, "Arial Narrow", sans-serif;
+  --ff-font-sans: "Instrument Sans", system-ui, sans-serif;
+  --ff-font-mono: "Fragment Mono", ui-monospace, monospace;
+
+  --ff-radius-tag: 2px;
+  --ff-radius-control: 8px;
+  --ff-radius-panel: 12px;
+  --ff-radius-pill: 9999px;
+  --ff-space-1: 4px;
+  --ff-space-2: 8px;
+  --ff-space-3: 12px;
+  --ff-space-4: 16px;
+  --ff-space-5: 24px;
+  --ff-space-6: 32px;
+  --ff-space-7: 48px;
+  --ff-space-8: 64px;
+  --ff-space-9: 96px;
+}
+
+:root,
+[data-theme="dark"] {
+  --ff-ui-canvas: #000000;
+  --ff-ui-surface: #141414;
+  --ff-ui-raised: #1A1A1A;
+  --ff-ui-text: #FFFFFF;
+  --ff-ui-text-secondary: #E0E0E0;
+  --ff-ui-text-muted: #B3B3B3;
+  --ff-ui-boundary: #666666;
+  --ff-ui-hairline: #2A2A2A;
+  --ff-ui-brand: #2BBC62;
+  --ff-ui-brand-foreground: #000000;
+  --ff-ui-brand-ink: #2BBC62;
+  --ff-ui-highlight: #FF00DD;
+  --ff-ui-highlight-foreground: #000000;
+  --ff-ui-highlight-ink: #FF52D1;
+}
+
+[data-theme="light"] {
+  --ff-ui-canvas: #F6F6F4;
+  --ff-ui-surface: #FFFFFF;
+  --ff-ui-raised: #EEEEEC;
+  --ff-ui-text: #111111;
+  --ff-ui-text-secondary: #2E2E2E;
+  --ff-ui-text-muted: #535353;
+  --ff-ui-boundary: #767676;
+  --ff-ui-hairline: #DCDCD8;
+  --ff-ui-brand: #2BBC62;
+  --ff-ui-brand-foreground: #000000;
+  --ff-ui-brand-ink: #0F7A3A;
+  --ff-ui-highlight: #FF00DD;
+  --ff-ui-highlight-foreground: #000000;
+  --ff-ui-highlight-ink: #B0009B;
+}
