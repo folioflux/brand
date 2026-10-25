@@ -4,11 +4,14 @@
 
 # FolioFlux brand kit
 
+[![CI](https://github.com/folioflux/brand/actions/workflows/ci.yml/badge.svg)](https://github.com/folioflux/brand/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 Logos, colors, type and banner templates for [FolioFlux](https://folioflux.com), the AI finance workspace for freelancers, small teams and their accountants. FolioFlux is free during early access.
 
 Use these files when you write about FolioFlux, link to it or list it as a partner. If you need something that isn't here, write to [hello@folioflux.com](mailto:hello@folioflux.com).
 
-**Contents:** [Logo](#logo) · [Colors](#colors) · [Typography](#typography) · [Usage](#usage) · [Banners](#banners) · [Downloads](#downloads) · [Press & partners](#press--partners) · [License](#license)
+**Contents:** [Logo](#logo) · [Colors](#colors) · [Typography](#typography) · [Usage](#usage) · [Banners](#banners) · [Downloads](#downloads) · [Press & partners](#press--partners) · [License](#license) · [Contributing](#contributing)
 
 ## Logo
 
@@ -174,4 +177,10 @@ Writing about FolioFlux, listing it in a directory or partnering with us? Use th
 
 The code and scripts in this repository (`banners/generate.py`, `scripts/`, `colors/tokens.css` and `colors/tokens.json`) are released under the [MIT License](LICENSE). The fonts are under the SIL Open Font License 1.1; see [`typography/licenses`](typography/licenses).
 
-**Trademark notice.** The FolioFlux name and logo are trademarks of FolioFlux. The MIT License does not grant any right to use them. You may use the logos, banners and other assets in this repository to refer to FolioFlux, for example in articles, directories, integration listings and links, as long as you follow the usage guidelines above. You may not use them to imply that FolioFlux sponsors or endorses you, your product or your content, as part of your own product or company name, or in a modified form.
+**Trademark notice.** The FolioFlux name and logo are trademarks of FolioFlux. The MIT License does not grant any right to use them. You may use the logos, banners and other assets in this repository to refer to FolioFlux, for example in articles, directories and links, as long as you follow the usage guidelines above. You may not use them to imply that FolioFlux sponsors or endorses you, your product or your content, as part of your own product or company name, or in a modified form.
+
+## Contributing
+
+Suggestions and fixes are welcome through issues and pull requests; the organization's [contributing guide](https://github.com/folioflux/.github/blob/main/CONTRIBUTING.md) and [Code of Conduct](https://github.com/folioflux/.github/blob/main/CODE_OF_CONDUCT.md) apply. Please report security problems privately, as described in the [security policy](https://github.com/folioflux/.github/blob/main/SECURITY.md).
+
+Questions: [hello@folioflux.com](mailto:hello@folioflux.com).
