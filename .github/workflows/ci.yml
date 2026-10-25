@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Validate tokens and scripts
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Validate JSON
+        run: python3 -m json.tool colors/tokens.json > /dev/null
+
+      - name: Compile Python scripts
+        run: python3 -m py_compile banners/generate.py scripts/build_kit.py
+
+      - name: Check that SVG files are well-formed XML
+        run: |
+          python3 - <<'PY'
+          import glob, sys
+          import xml.etree.ElementTree as ET
+          files = sorted(glob.glob('logo/svg/*.svg'))
+          for f in files:
+              ET.parse(f)
+          print(f'{len(files)} SVG files parsed')
+          PY
